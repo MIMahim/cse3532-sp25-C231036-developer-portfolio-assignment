@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f1;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 160px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: orange;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.hire-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+.developer {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 80px;
+    color: grey;
+    margin-right: 40px;
+    font-weight: bold;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+    max-width: 500px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons .download,
+.buttons .contact {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.buttons .download {
+    background-color: orange;
+    color: white;
+    font: bold;
+}
+
+.buttons .contact {
+    background-color: transparent;
+    color: orange;
+    border: 1px solid orange;
+}
+
+.hero-img {
+    flex: 1;
+    width: 100px;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.about {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.A {
+    justify-content: center;
+    align-items: center;
+    background-color: #FAEBD7;
+    color: black;
+    width: 500px;
+    height: 230px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+}
+
+.whatIdo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.A1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.S1 {
+    justify-content: center;
+    align-items: center;
+    background-color: #fff7f1;
+    color: black;
+    width: 650px;
+    height: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0px;
+
+}
+
+.tools {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.Resume {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.education {
+
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.R {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.download1 {
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    color: white;
+    width: 120px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.END {
+    display: flex;
+    padding: 0px 200px;
+}
+
+.connect {
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    font-family: sans-serif;
+    text-align: center;
+    border: 0px;
+}
+
+.CName {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    colour: grey;
+}
+
+.submit {
+    background-color: orange;
+    color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
